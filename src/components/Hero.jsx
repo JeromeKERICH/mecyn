@@ -21,14 +21,14 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="relative z-10 px-4 text-center text-white max-w-4xl"
       >
-        <h1 className="text-3xl md:text-6xl font-bold mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-start md:text-center">
           Transforming Minds, <span className="text-[#50E14C]">One Conversation</span> at a Time
         </h1>
-        <p className="text-xl md:text-2xl mb-8">
+        <p className="text-xl md:text-2xl mb-8 md:text-center text-start font-san-serif">
           Mental Health Advocate. Psychologist. Speaker.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-row text-xs sm:flex-row gap-4 justify-center items-center">
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -43,7 +43,7 @@ export default function Hero() {
             href="/contact" 
             className="bg-transparent hover:bg-white/10 border-2 border-white text-white font-bold py-3 px-6 rounded-full flex items-center gap-2"
           >
-            Book Me to Speak <Mic size={20} />
+            Book Me <Mic size={20} />
           </motion.a>
         </div>
       </motion.div>

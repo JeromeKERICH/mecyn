@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Programs from './pages/Dipco'
 import Contact from './pages/Contact'
+import { FloatingWhatsApp } from './components/FloatingWA'
 
 
 function App() {
@@ -16,8 +17,10 @@ function App() {
             <Route path="/" element={<Home/>}/>
             <Route path="/dipco" element={<Programs/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            
           </Routes>
         </main>
+        <FloatingWhatsApp/>
         <Footer/>
       </div>
     </Router>

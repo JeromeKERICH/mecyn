@@ -1,7 +1,12 @@
 import { motion } from 'framer-motion'
 import { Mail, Phone, MapPin, Clock, Send, MessageSquare } from 'lucide-react'
+import { useEffect } from 'react'
 
 export default function Contact() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }
+    , [])
   return (
     <div className="bg-white">
       {/* Hero Section */}

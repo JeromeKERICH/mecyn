@@ -17,16 +17,9 @@ const programs = [
       "Trained facilitators with guided handbooks",
       "Structured coaching approach"
     ],
-    tracks: [
-      "Future Focus",
-      "Heart Wise", 
-      "Social Edge",
-      "Soul Spark",
-      "Creative Learning",
-      "Wonder World"
-    ],
+  
     impact: ["Confidence", "Purpose", "Emotional intelligence", "Real-world readiness"],
-    color: "bg-[#50E14C]",
+    
     textColor: "text-[#50E14C]"
   },
   {
@@ -44,8 +37,8 @@ const programs = [
       "Licensed professionals"
     ],
     impact: ["Mental resilience", "Emotional coping", "Holistic wellbeing", "Stigma reduction"],
-    color: "bg-[#00AEEF]",
-    textColor: "text-[#00AEEF]"
+    
+    textColor: "text-[#001D53]"
   },
   {
     id: 3,
@@ -62,8 +55,8 @@ const programs = [
       "Leadership development"
     ],
     impact: ["Self-confidence", "Social skills", "Stress management", "Life purpose"],
-    color: "bg-[#FF6B35]",
-    textColor: "text-[#FF6B35]"
+    
+    textColor: "text-[#50E14C]"
   },
   {
     id: 4,
@@ -80,8 +73,8 @@ const programs = [
       "Family balance strategies"
     ],
     impact: ["Parenting confidence", "Emotional balance", "Family bonds", "Support networks"],
-    color: "bg-[#A45CFF]",
-    textColor: "text-[#A45CFF]"
+    
+    textColor: "text-[#001D53]"
   }
 ]
 
@@ -246,7 +239,7 @@ export default function Programs() {
       {/* CTA Section */}
       <section className="py-5 md:py-10 lg:py:15 relative h-screen flex items-center justify-center bg-gradient-to-br from-[#001D53] to-[#50E14C] overflow-hidden">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">Ready to Begin the Journey?</h2>
+          <h2 className="text-2xl font-bold text-white mb-6">Ready to Begin the Journey?</h2>
         
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
             <motion.a

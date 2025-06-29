@@ -19,7 +19,7 @@ export default function About() {
                 The Story Behind <span className="text-[#50E14C]">the Voice</span>
               </h1>
               <p className="text-xl mb-8">
-                Psychologist. Advocate. Changemaker. Meet Mercy Nzuki beyond the microphone.
+                I am a Psychologist. Advocate. Changemaker. <br/> Meet Me beyond the microphone.
               </p>
             </motion.div>
             
@@ -120,7 +120,7 @@ export default function About() {
               "Mental health is not a side note in life, it's the heartbeat of every dream we dare to chase."
             </blockquote>
             <div className="w-24 h-1 bg-[#50E14C] mx-auto"></div>
-            <p className="mt-6 text-lg text-[#001D53] font-medium">— Mercy Nzuki</p>
+            
           </motion.div>
         </div>
       </section>

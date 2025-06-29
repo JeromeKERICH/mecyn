@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { ArrowRight, Mic } from 'lucide-react'
 
 export default function Hero() {
@@ -29,18 +30,18 @@ export default function Hero() {
         </p>
         
         <div className="flex flex-row text-xs sm:flex-row gap-4 justify-center items-center">
-          <motion.a
+          <motion.Link
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="/services" 
+            Link to="/dipco" 
             className="bg-[#00AEEF] hover:bg-[#0085bf] text-[#001D53] font-bold py-3 px-6 rounded-full flex items-center gap-2"
           >
             Explore My Work <ArrowRight size={20} />
-          </motion.a>
+          </motion.Link>
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="/contact" 
+            href="https://calendly.com/nzukimercy/30min" 
             className="bg-transparent hover:bg-white/10 border-2 border-white text-white font-bold py-3 px-6 rounded-full flex items-center gap-2"
           >
             Book Me <Mic size={20} />

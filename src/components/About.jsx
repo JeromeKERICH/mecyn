@@ -19,7 +19,7 @@ export default function About() {
                 The Story Behind <span className="text-[#50E14C]">the Voice</span>
               </h1>
               <p className="text-xl mb-8">
-                I am a Psychologist. Advocate. Changemaker. <br/> Meet Me beyond the microphone.
+                I am a Psychologist. The Mind Advocate. Changemaker. <br/> Meet Me beyond the microphone.
               </p>
             </motion.div>
             

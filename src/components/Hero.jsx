@@ -26,18 +26,17 @@ export default function Hero() {
           Transforming Minds, <span className="text-[#50E14C]">One Conversation</span> at a Time
         </h1>
         <p className="text-xl md:text-2xl mb-8 md:text-center text-start font-san-serif">
-          Mental Health Advocate. Psychologist. Speaker.
+          Psychologist. The Mind Advocate. Founder at DIP-CO. Mental Wellness Speaker.
         </p>
         
         <div className="flex flex-row text-xs sm:flex-row gap-4 justify-center items-center">
-          <motion.Link
+          <Link to="/dipco"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            Link to="/dipco" 
             className="bg-[#00AEEF] hover:bg-[#0085bf] text-[#001D53] font-bold py-3 px-6 rounded-full flex items-center gap-2"
           >
             Explore My Work <ArrowRight size={20} />
-          </motion.Link>
+          </Link>
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

@@ -4,12 +4,6 @@ import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone } from 'lucide-reac
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
-  const quickLinks = [
-    { name: 'About', path: '/about' },
-    { name: 'Speaking', path: '/speaking' },
-    { name: 'Contact', path: '/contact' },
-  ]
-
   const socialLinks = [
     { icon: <Facebook size={20} />, url: '#' },
     { icon: <Twitter size={20} />, url: '#' },
@@ -47,22 +41,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-bold mb-4 text-[#50E14C]">Quick Links</h4>
-            <ul className="space-y-2">
-              {quickLinks.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    to={link.path}
-                    className="hover:text-[#00AEEF] transition-colors"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
 
           {/* Contact Info */}
           <div>
@@ -70,14 +48,14 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-start space-x-2">
                 <Mail className="w-5 h-5 mt-0.5 text-[#00AEEF]" />
-                <a href="mailto:nzukimercy@gmail.com" className="hover:underline">
-                  nzukimercy@gmail.com
+                <a href="mailto:mercy.nzuki33@gmail.com" className="hover:underline">
+                  mercy.nzuki33@gmail.com
                 </a>
               </div>
               <div className="flex items-start space-x-2">
                 <Phone className="w-5 h-5 mt-0.5 text-[#00AEEF]" />
-                <a href="tel:+254700000000" className="hover:underline">
-                  +254 700 000 000
+                <a href="tel:+254745506656" className="hover:underline">
+                  +254 745 506 656
                 </a>
               </div>
             </div>
@@ -99,7 +77,7 @@ export default function Footer() {
           <p>
             &copy; {currentYear} Mercy Nzuki. All rights reserved. |{' '}
             <span className="text-[#50E14C]">
-              "It's okay not to be okay – and it's powerful to ask for help."
+              "It's okay not to be okay, and it's powerful to ask for help."
             </span>
           </p>
         </div>

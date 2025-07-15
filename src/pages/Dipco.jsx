@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 const programs = [
   {
     id: 1,
-    icon: <Sparkles className="w-8 h-8" />,
+    
     title: "Mastermind Mentorship Program",
     tagline: "Strengthening Minds. Nurturing Hearts. Guiding Purpose.",
     description: "A holistic mentorship program for children, teens, and young adults (ages 3–24), built on global youth development standards.",
@@ -24,7 +24,7 @@ const programs = [
   },
   {
     id: 2,
-    icon: <BrainCircuit className="w-8 h-8" />,
+   
     title: "Mind Matters",
     tagline: "Where every thought counts, and every feeling is valid.",
     description: "A safe, supportive space for children and young people to understand and prioritize mental wellness.",
@@ -42,7 +42,6 @@ const programs = [
   },
   {
     id: 3,
-    icon: <User className="w-8 h-8" />,
     title: "Holiday Escapades",
     tagline: "Unplug, Explore, and Grow, One Escapade at a Time.",
     description: "Fun, interactive retreats blending recreation with personal growth for ages 3–24.",
@@ -60,7 +59,6 @@ const programs = [
   },
   {
     id: 4,
-    icon: <Users className="w-8 h-8" />,
     title: "Parent/Guardian Connect",
     tagline: "Strong Parents, Thriving Children.",
     description: "Empowered children start with supported parents and caregivers.",
@@ -93,9 +91,7 @@ export default function Programs() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="w-16 h-16 mx-auto mb-6 bg-[#50E14C] rounded-full flex items-center justify-center">
-              <HeartPulse className="text-white" size={28} />
-            </div>
+            
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               DIP-CO <span className="text-[#50E14C]">Programs</span>
             </h1>
@@ -141,9 +137,7 @@ export default function Programs() {
                 
                 {/* Program Content */}
                 <div className="p-6">
-                  <div className={`w-12 h-12 rounded-full ${program.color}/10 flex items-center justify-center mb-4`}>
-                    {program.icon}
-                  </div>
+                  
                   <h2 className={`text-2xl font-bold mb-2 ${program.textColor}`}>{program.title}</h2>
                   <p className="text-lg font-medium text-gray-700 mb-4">{program.tagline}</p>
                   <p className="text-gray-600 mb-6">{program.description}</p>
@@ -237,8 +231,8 @@ export default function Programs() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-5 md:py-10 lg:py:15 relative h-screen flex items-center justify-center bg-gradient-to-br from-[#001D53] to-[#50E14C] overflow-hidden">
-        <div className="container mx-auto px-4 text-center">
+      <section className="py-5 md:py-10 lg:py:10 relative h-1/4 flex items-center justify-center bg-gradient-to-br from-[#001D53] to-[#50E14C] overflow-hidden">
+        <div className="container mx-auto px-2 text-center">
           <h2 className="text-2xl font-bold text-white mb-6">Ready to Begin the Journey?</h2>
         
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">

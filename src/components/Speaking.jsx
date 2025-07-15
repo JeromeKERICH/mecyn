@@ -20,7 +20,7 @@ const speakingEngagements = [
     category: "Keynote Presentation",
     icon: <Presentation className="text-[#50E14C]" size={20} />,
     highlight: "Co-launched community handbook for engaging adolescents and parents",
-    image: "/assets/11.jpg",
+    image: "/assets/30.jpg",
     alt: "Presenting at Kenya Adolescent Health Survey"
   },
   {

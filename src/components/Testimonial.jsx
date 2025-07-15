@@ -161,7 +161,7 @@ export default function Testimonials() {
               
               <motion.a
                 whileHover={{ scale: 1.05 }}
-                href="/contact"
+                href="https://calendly.com/app/personal/link"
                 className="bg-white hover:bg-gray-100 text-[#001D53] font-bold py-3 px-8 rounded-full"
               >
                 Book a Free Session

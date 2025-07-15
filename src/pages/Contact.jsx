@@ -17,9 +17,7 @@ export default function Contact() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="w-16 h-16 mx-auto mb-6 bg-[#50E14C] rounded-full flex items-center justify-center">
-              <Send className="text-white" size={28} />
-            </div>
+            
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Let's <span className="text-[#50E14C]">Connect</span>
             </h1>
@@ -72,7 +70,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-bold text-[#001D53] mb-1">Location</h3>
                     <p className="text-gray-600">Nairobi, Kenya</p>
-                    <p className="text-sm text-gray-500 mt-1">Available for in-person and virtual engagements worldwide</p>
+                    
                   </div>
                 </div>
 
@@ -160,9 +158,7 @@ export default function Contact() {
       <section className="py-16 bg-[#001D53]/5">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="w-16 h-16 mx-auto mb-6 bg-[#50E14C] rounded-full flex items-center justify-center">
-              <MessageSquare className="text-white" size={28} />
-            </div>
+            
             <h2 className="text-3xl font-bold text-[#001D53] mb-6">Ready to Start the Conversation?</h2>
             <p className="text-xl text-gray-600 mb-8">
               Book Mercy directly for speaking engagements or mental health consultations

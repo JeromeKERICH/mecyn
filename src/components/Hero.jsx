@@ -40,7 +40,7 @@ export default function Hero() {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="https://calendly.com/app/personal/link" 
+            href="https://calendly.com/mercy-nzuki33/30min" 
             className="bg-transparent hover:bg-white/10 border-2 border-white text-white font-bold py-3 px-6 rounded-full flex items-center gap-2"
           >
             Book Me <Mic size={20} />

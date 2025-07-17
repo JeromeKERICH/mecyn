@@ -54,13 +54,13 @@ export default function Header() {
                 {link.name}
               </Link>
             ))}
-            <Link
-              to="/contact"
+            <a 
+              href="https://calendly.com/mercy-nzuki33/30min"
               className="bg-[#00AEEF] hover:bg-[#0085bf] text-[#001D53] font-bold py-2 px-4 rounded-full flex items-center gap-1 text-sm"
             >
               <Mic size={16} />
               Book Now
-            </Link>
+            </a>
           </nav>
 
           {/* Mobile menu button */}
